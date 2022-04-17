@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ocha/static/css/main.c51046aa.css",
+    "main.css": "/ocha/static/css/main.e8370ada.css",
     "main.js": "/ocha/static/js/main.2bb87ed6.js",
     "static/media/greentea.jpg": "/ocha/static/media/greentea.09df8d9aa8fe95cf99fc.jpg",
     "static/media/gyokuro.jpg": "/ocha/static/media/gyokuro.0a9b6b3b4135facdc97d.jpg",
@@ -19,11 +19,11 @@
     "static/media/whitetea.jpg": "/ocha/static/media/whitetea.f6548206699c14e14891.jpg",
     "static/media/tea.png": "/ocha/static/media/tea.b446aee0b382c3fbf750.png",
     "index.html": "/ocha/index.html",
-    "main.c51046aa.css.map": "/ocha/static/css/main.c51046aa.css.map",
+    "main.e8370ada.css.map": "/ocha/static/css/main.e8370ada.css.map",
     "main.2bb87ed6.js.map": "/ocha/static/js/main.2bb87ed6.js.map"
   },
   "entrypoints": [
-    "static/css/main.c51046aa.css",
+    "static/css/main.e8370ada.css",
     "static/js/main.2bb87ed6.js"
   ]
 }
