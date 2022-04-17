@@ -175,6 +175,7 @@ table {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 35vw;
         gap: 2vh;
         &> div {
             padding-left: 0px;
@@ -182,15 +183,14 @@ table {
     }
 
     .btnRemove {
-        width: 18vw;
+        width: 20vw;
         height: 4vh;
         padding: 5px;
     }
 
     .incrDecr {
-        height: 3vh;
+        height: 4vh;
         width: 8vw;
-        display: none;
     }
 
     .inputQuantity {
