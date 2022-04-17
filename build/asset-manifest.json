@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/ocha/static/css/main.c51046aa.css",
+    "main.js": "/ocha/static/js/main.2bb87ed6.js",
+    "static/media/greentea.jpg": "/ocha/static/media/greentea.09df8d9aa8fe95cf99fc.jpg",
+    "static/media/gyokuro.jpg": "/ocha/static/media/gyokuro.0a9b6b3b4135facdc97d.jpg",
+    "static/media/puerh.jpg": "/ocha/static/media/puerh.8f170b79f0762d8facf5.jpg",
+    "static/media/blackTea.jpg": "/ocha/static/media/blackTea.e7745887849f2034318f.jpg",
+    "static/media/teals.jpeg": "/ocha/static/media/teals.d1f76bd0257be933e3e0.jpeg",
+    "static/media/divers.jpeg": "/ocha/static/media/divers.c610692ed687248a7b85.jpeg",
+    "static/media/yerbamate.jpeg": "/ocha/static/media/yerbamate.e49b7a65dceea4ec945c.jpeg",
+    "static/media/matchaPic.jpeg": "/ocha/static/media/matchaPic.219288e49a6411721572.jpeg",
+    "static/media/yellowPic.jpeg": "/ocha/static/media/yellowPic.f24ab988a4b47bc75296.jpeg",
+    "static/media/oolongTea.jpg": "/ocha/static/media/oolongTea.4a8a7099d8cfc5e03a4f.jpg",
+    "static/media/bambouPic.jpeg": "/ocha/static/media/bambouPic.1f9086b2779bc62eada9.jpeg",
+    "static/media/motcha.jpg": "/ocha/static/media/motcha.7dc0422bebfc816025bd.jpg",
+    "static/media/teaJar.jpeg": "/ocha/static/media/teaJar.4277246f68573fe263f7.jpeg",
+    "static/media/yellow.jpg": "/ocha/static/media/yellow.475d2fba4a762e42a2f0.jpg",
+    "static/media/whitetea.jpg": "/ocha/static/media/whitetea.f6548206699c14e14891.jpg",
+    "static/media/tea.png": "/ocha/static/media/tea.b446aee0b382c3fbf750.png",
+    "index.html": "/ocha/index.html",
+    "main.c51046aa.css.map": "/ocha/static/css/main.c51046aa.css.map",
+    "main.2bb87ed6.js.map": "/ocha/static/js/main.2bb87ed6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c51046aa.css",
+    "static/js/main.2bb87ed6.js"
+  ]
+}

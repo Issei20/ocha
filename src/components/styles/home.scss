@@ -1,0 +1,135 @@
+@import "./colors.scss";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+.container-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+
+    .divTitle {
+
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 4vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1 {
+            font-size: 2rem;
+            color: #4d4d4d;
+            font-family: 'Comfortaa', cursive;
+        }
+
+    }
+   
+
+    .intro-text {
+        width: 35vw;
+        display: flex;
+        gap: 2vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        h2 {
+            color: rgb(36, 36, 36);
+            font-size: 2.5rem;
+        }
+
+        h3 {
+            color: rgb(82, 82, 82);
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        p {
+            text-align: center;
+            color: rgb(104, 104, 104);
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+
+    }
+ 
+}
+
+.divImg {
+    background-image: url("../images/teals.jpeg");
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productsShow {
+    display: flex;
+    gap: 2vw;
+
+    .qualityPic {
+        height: 40vh;
+   
+    &:hover {
+        transform: scale(105%);
+        cursor: pointer;
+    }
+  }
+
+}
+
+
+img {
+    border-radius: 0.5rem;
+    transition: all 150ms ease-in-out;
+
+}
+
+.teaImg {
+    height: 80px;
+}
+
+@media (max-width: 1130px ) {
+    .productsShow {
+        flex-wrap: wrap;
+        width: 80vw;
+        gap: 6vw;
+        justify-content: center;
+        .qualityPic {
+        height: 30vh
+        }
+
+        .motchaPic {
+            width: 77vw;
+        }
+
+        
+    }
+
+    .container-home {
+        gap: 6vh;
+        .divTitle {
+            height: 15vh;
+            .title-home {
+            width: 90vw;
+            font-size: 1.8rem;
+            }
+        }
+
+        .divImg {
+            height: 35vh;
+        }
+        .intro-text {
+            width: 80vw;
+            gap: 3vh;
+            h2 {
+                font-size: 1.9rem;
+            }
+        }
+    }
+
+
+  
+}

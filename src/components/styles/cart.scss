@@ -1,0 +1,206 @@
+@import "./colors.scss";
+
+.containerItemsCart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh;
+    margin-bottom: 25vh;
+    flex-direction: column;
+}
+
+.cartImgItem {
+    height: 15vh;
+}
+
+table {
+    overflow: hidden;
+    border-spacing: 30px; 
+    width: 90vw;
+   th {
+        color: rgb(73, 73, 73);
+        font-weight: 400;
+    }
+
+   td, th {
+    padding: 30px;
+    text-align: center;
+  }
+    tr {
+        border: 1px solid rgb(155, 155, 155);
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+
+}
+
+.cardCheck {
+    color: rgb(73, 73, 73);
+}
+
+.itemName {
+    color:rgb(73, 73, 73);
+
+}
+
+.totalPriceCell {
+    align-self: end;
+    padding: 5vh;
+    color: rgb(73, 73, 73);
+}
+
+.quantityCart {
+    display: flex;
+    gap: 3vh;
+    justify-content: center;
+    &> div {
+      display: flex;  
+      gap: 5px;
+      padding-left: 20px;
+    }
+    
+}
+
+.inputQuantity {
+    width: 2vw;
+    height: 30px;
+}
+
+.incrDecr {
+    height: 30px;
+    width: 30px;;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(117, 117, 117);
+    color: rgb(73, 73, 73);;
+    font-size: 1.3rem;
+
+    &:hover {
+        transform: scale(103%);
+        cursor: pointer;
+    }
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 0;
+
+        
+    }
+}
+
+.btnRemove {
+    background-color: rgb(241, 241, 241);
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+    color: rgb(71, 71, 71);
+    transition: all 150ms ease-in-out;
+
+    &:hover {
+        background-color: rgb(255, 217, 217);
+        cursor: pointer;
+    }
+}
+
+.btnCheckoutContainer {
+    align-self: flex-end;
+    display: flex;
+    gap: 1vw;
+}
+
+.checkoutBtnShop {
+    height: 50px;
+    width: 12vw;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color:rgb(71, 71, 71); 
+    background-color: $greenhover;
+    border: 1px solid grey;
+    border-radius: 0.2rem;
+    transition: all 150ms ease-in-out;
+
+    &:hover {
+        background-color: rgb(217, 245, 221);
+    }
+}
+
+.checkoutBtn {
+    height: 50px;
+    width: 12vw;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color:rgb(71, 71, 71); 
+}
+
+@media (max-width: 1130px) {
+    .containerItemsCart {
+        padding: 5vw;
+
+       
+    }
+
+    .cartImgItem {
+        height: 7vh;
+    }
+    table {
+        width: 80vw;
+        td, th{
+            padding:0px;
+        }
+
+        td {
+            height: 20vh;
+        }
+        th {
+            padding: 2vh;
+        }
+    }
+
+    .btnCheckoutContainer {
+        flex-direction: column;
+        padding: 10vw;
+
+        .checkoutBtn {
+            font-size: 1rem;
+             width: 30vw;
+        }
+
+        .checkoutBtnShop {
+            font-size: 1rem;
+             width: 30vw;
+        }
+    }
+
+    .quantityCart {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2vh;
+        &> div {
+            padding-left: 0px;
+          }
+    }
+
+    .btnRemove {
+        width: 18vw;
+        height: 4vh;
+    }
+
+    .incrDecr {
+        height: 3vh;
+        width: 8vw;
+        display: none;
+    }
+
+    .inputQuantity {
+        width: 10vw;
+        height: 4vh;
+        padding-left: 1vw
+    }
+
+    .quantityCheck {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

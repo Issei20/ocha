@@ -1,0 +1,89 @@
+@import "./colors.scss";
+
+footer {
+    margin-top: 8vh;
+    height: 40vh;
+    background-color: rgb(238, 238, 238);
+    border-top: $greyBorder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    
+    h1 {
+        font-size: 2rem;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+        color: rgb(95, 95, 95);
+        font-weight: 300;
+        
+        li {
+            cursor: pointer;
+        }
+    }
+    .locationContainer {
+        display: flex;
+        gap: 1vw;
+        color: rgb(95, 95, 95);
+        p {
+            color: rgb(95, 95, 95);
+            font-weight: 300;
+        }
+    }
+
+    .container-links {
+        display: flex;
+        gap: 15vw;
+    }
+    
+    .mediaUl {
+        align-items: center;
+
+    }
+
+    .mediaLogos {
+        display: flex;
+        gap: 1vw;
+
+        .social {
+            height: 30px;
+            cursor: pointer;
+
+            &:hover {
+                color: grey;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1130px) {
+    footer {
+        height: 90vh;
+    }
+
+    .footer-container {
+        width: 80vw;
+        font-size: 1.2rem;
+        .mediaLogos {
+            gap: 3vw;
+        }
+    }
+
+    .container-links {
+        font-size:1rem ;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
