@@ -65,12 +65,39 @@ footer {
     }
 }
 
-
 @media (max-width: 1130px) {
     footer {
         height: 90vh;
+        padding-top: 60vh;
+        padding-bottom: 60vh;
+
+    }
+    
+    .footer-container {
+        width: 80vw;
+        font-size: 1.2rem;
+        .mediaLogos {
+            gap: 3vw;
+        }
     }
 
+    .container-links {
+        font-size:1rem ;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+@media (max-width: 545px) {
+    footer {
+        height: 90vh;
+        padding-top: 0vh;
+        padding-bottom: 0vh;
+
+    }
+    
     .footer-container {
         width: 80vw;
         font-size: 1.2rem;

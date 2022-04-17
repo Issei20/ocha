@@ -68,6 +68,8 @@
 .productsShow {
     display: flex;
     gap: 2vw;
+    flex-wrap: wrap;
+    padding: 5px;
 
     .qualityPic {
         height: 40vh;
@@ -98,11 +100,7 @@ img {
         gap: 6vw;
         justify-content: center;
         .qualityPic {
-        height: 30vh
-        }
-
-        .motchaPic {
-            width: 77vw;
+        height: 20vh
         }
 
         
@@ -113,7 +111,8 @@ img {
         .divTitle {
             height: 15vh;
             .title-home {
-            width: 90vw;
+            width: 80vw;
+            text-align: center;
             font-size: 1.8rem;
             }
         }
